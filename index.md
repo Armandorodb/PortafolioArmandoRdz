@@ -19,7 +19,7 @@ Si alguno te interesa o deseas colaborar, no dudes en contactarme.
 
 <div class="cards">
 
-<a class="card" href="/ProyectosArmandoRdz/projects/regresion-lineal">
+<a class="card" href="/ProyectosArmandoRdz/projects/proyecto1.md">
   <h3>Regresión Lineal</h3>
   <p>Relación entre el PIB y el puntaje del World Happiness Report. Incluye análisis estadístico, R², p-value y visualizaciones.</p>
 </a>
