@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Portafolio de proyectos de inteligencia artificial
+title: Portafolio de proyectos de Armando Rdz.
 ---
 
 # ¡Bienvenido a mi portafolio de proyectos de inteligencia artificial! 🤖
 
 Hola, soy **Armando Rodríguez**, estudiante de **Ingeniería en Robótica y Sistemas Inteligentes**.  
-En esta página encontrarás un resumen de mis proyectos desarrollados en el área de **inteligencia artificial**, **aprendizaje automático** y **análisis de datos**.  
+En esta página encontrarás un resumen de mis proyectos desarrollados en el área de **Inteligencia Artificial**, **Visión Computacional**, **Control** y **Robótica**.
 
 Cada proyecto incluye una breve descripción, su propósito y enlaces directos para visualizar el código o descargar los archivos necesarios.  
 Si alguno te interesa o deseas colaborar, no dudes en contactarme.
@@ -19,7 +19,7 @@ Si alguno te interesa o deseas colaborar, no dudes en contactarme.
 
 <div class="cards">
 
-<a class="card" href="/ProyectosArmandoRdz/projects/proyecto1.md">
+<a class="card" href="/ProyectosArmandoRdz/projects/proyecto1">
   <h3>Regresión Lineal</h3>
   <p>Relación entre el PIB y el puntaje del World Happiness Report. Incluye análisis estadístico, R², p-value y visualizaciones.</p>
 </a>
