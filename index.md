@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portafolio de proyectos de Armando Rdz.
+title: Portafolio de Proyectos de Armando Rdz.
 ---
 
 # ¡Bienvenido a mi portafolio de proyectos de inteligencia artificial! 🤖
