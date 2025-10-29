@@ -1,6 +1,6 @@
 title: "Proyectos de Inteligencia Artificial – Armando Rodríguez"
-description: "Repositorio y portafolio de proyectos de IA, ML y análisis de datos."
+description: "Repositorio y portafolio de proyectos de Inteligencia Artificial, Control, Visión Computacional y Robótica."
 theme: jekyll-theme-cayman
 show_downloads: false
 github:
-  is_project_page: true
+  is_project_page: false
