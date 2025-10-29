@@ -1,4 +1,6 @@
-theme : minima
-title : Repositorio de proyectos.
-autor : Roberto Armando Rodríguez Bernal.
-description : Siéntete libre de contactarme si lo deseas.
+title: "Repositorio de proyectos – Armando Rodríguez"
+description: "Portafolio de proyectos de IA, visión y robótica."
+theme: jekyll-theme-cayman   # (también funcionan 'minimal', 'slate', 'time-machine', etc.)
+show_downloads: false
+github:
+  is_project_page: true
