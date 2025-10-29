@@ -8,7 +8,7 @@ title: Portafolio
 Soy estudiante de Ingeniería en Robótica y Sistemas Inteligentes. Aquí recopilo mis proyectos de **IA**, **ML**, **visión computacional** y **robótica**.  
 Si alguno te interesa, con gusto platicamos.
 
-- ✉️ Contacto: [LinkedIn](https://www.linkedin.com/) · [GitHub](https://github.com/Armandorodb)
+- ✉️ Contacto: [LinkedIn](https://www.linkedin.com/) · [GitHub](https://github.com/Armandorodb) [roberto.rodriguezb@udem.edu](roberto.rodriguezb@udem.edu)
 
 ---
 
