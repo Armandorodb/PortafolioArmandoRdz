@@ -1,6 +1,6 @@
-title: "Repositorio de proyectos – Armando Rodríguez"
-description: "Portafolio de proyectos de IA, visión y robótica."
-theme: jekyll-theme-cayman   # (también funcionan 'minimal', 'slate', 'time-machine', etc.)
+title: "Proyectos de Inteligencia Artificial – Armando Rodríguez"
+description: "Repositorio y portafolio de proyectos de IA, ML y análisis de datos."
+theme: jekyll-theme-cayman
 show_downloads: false
 github:
   is_project_page: true
