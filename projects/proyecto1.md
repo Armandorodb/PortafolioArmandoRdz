@@ -1,3 +1,26 @@
+---
+layout: default
+title: Regresión Lineal (GDP vs. WHR)
+permalink: /projects/proyecto1/
+---
+
+<a class="back-link" href="{{ site.baseurl }}/">← Volver al portafolio</a>
+
+<div class="project-hero">
+  <h1>Regresión Lineal (GDP vs. World Happiness Report)</h1>
+  <p class="subtitle">Ejercicio de Linear Regression con GDP y puntajes de felicidad (WHR)</p>
+
+  <div class="cta-row">
+    <a class="btn btn-primary" href="{{ site.baseurl }}/Ejercicio_LinearRegression.html">▶️ Ver la regresión lineal</a>
+    <a class="btn" href="{{ site.baseurl }}/Ejercicio_LinearRegression.ipynb">📓 Notebook (.ipynb)</a>
+    <a class="btn" href="{{ site.baseurl }}/data1_2.csv">📄 CSV (base de datos)</a>
+  </div>
+</div>
+
+---
+
+## Descripción
+
 **Ejercicio de Linear Regression (Regresión Lineal):**   
 
    
@@ -8,15 +31,28 @@ Para el análisis de regresión lineal se identificó si existía una relación 
 con ayuda de herramientas estadísticas como la prueba de hipótesis, la distribución de student, el p-value, también se calculó el RSE y el R^2.
 También se realizó una inferencia con los resultados obtenidos. Además los datos se verificaron mediante el uso de librerías especializadas.
 
+---
+
+## Fuentes de datos
+
 Se utilizaron datos del "World Happiness Report" (WHR) para obtener los puntajes de felicidad.   
 [https://worldhappiness.report/ed/2022/#appendices-and-data](https://worldhappiness.report/ed/2022/#appendices-and-data)
 
 Y se utilizaron datos de "The world bank" para obtener el GDP.   
 [https://data.worldbank.org/indicator/NY.GDP.MKTP.CD](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD)
 
+---
+
+## Archivos y ejecutables
+
 Dichos datos fueron modificados para poder trabajar con ellos de mejor manera, para poder ejecutar el código y verificar su funcionamiento
 usa el descargable.  
 
--[Ver la regresión lineal](Ejercicio_LinearRegression.html)  
--[Descargar archivo CSV (La base de datos)](data1_2.csv)  
--[Descargar archivo Jupyter Notebook (.ipynb)](Ejercicio_LinearRegression.ipynb)
+<ul class="file-links">
+  <li>▶️ <a href="{{ site.baseurl }}/Ejercicio_LinearRegression.html"><strong>Ver la regresión lineal</strong></a></li>
+  <li>📄 <a href="{{ site.baseurl }}/data1_2.csv">Descargar archivo CSV (La base de datos)</a></li>
+  <li>📓 <a href="{{ site.baseurl }}/Ejercicio_LinearRegression.ipynb">Descargar archivo Jupyter Notebook (.ipynb)</a></li>
+</ul>
+
+<a class="back-link bottom" href="{{ site.baseurl }}/">← Volver al portafolio</a>
+
