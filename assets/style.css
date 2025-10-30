@@ -37,11 +37,6 @@
   border-color: #0d6efd;
 }
 
-.page-header {
-  display: none !important;
-}
-
-
 .file-links {
   list-style: none;
   padding-left: 0;
@@ -49,3 +44,8 @@
 }
 .file-links li { margin: 8px 0; }
 .file-links a { text-decoration: none; }
+
+.page-header {
+  display: none !important;
+}
+
