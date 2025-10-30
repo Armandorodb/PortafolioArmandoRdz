@@ -19,22 +19,22 @@ Si alguno te interesa o deseas colaborar, no dudes en contactarme.
 
 <div class="cards">
 
-<a class="card" href="/ProyectosArmandoRdz/projects/proyecto1/">
+<a class="card" href="/PortafolioArmandoRdz/projects/proyecto1/">
   <h3>Regresión Lineal</h3>
   <p>Relación entre el PIB y el puntaje del World Happiness Report. Incluye análisis estadístico, R², p-value y visualizaciones.</p>
 </a>
 
-<a class="card" href="/ProyectosArmandoRdz/projects/proyecto2.html">
+<a class="card" href="/PortafolioArmandoRdz/projects/proyecto2.md/">
   <h3>Regresión Lineal Múltiple</h3>
   <p>Modelo predictivo con múltiples variables explicativas y validación cruzada para evaluar su rendimiento.</p>
 </a>
 
-<a class="card" href="/ProyectosArmandoRdz/projects/proyecto3.md">
+<a class="card" href="/PortafolioArmandoRdz/projects/proyecto3/">
   <h3>Selección de características</h3>
   <p>Aplicación de métodos de filtrado, envolvente y embebido para mejorar el desempeño de modelos predictivos.</p>
 </a>
 
-<a class="card" href="/ProyectosArmandoRdz/projects/solucion-base-datos">
+<a class="card" href="/PortafolioArmandoRdz/projects/proyecto4/">
   <h3>Solución de problemas en una base de datos</h3>
   <p>Aplicación de técnicas de aprendizaje supervisado para resolver problemas con datos estructurados.</p>
 </a>
