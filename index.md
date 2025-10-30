@@ -29,7 +29,7 @@ Si alguno te interesa o deseas colaborar, no dudes en contactarme.
   <p>Modelo predictivo con múltiples variables explicativas y validación cruzada para evaluar su rendimiento.</p>
 </a>
 
-<a class="card" href="/ProyectosArmandoRdz/projects/seleccion-caracteristicas">
+<a class="card" href="/ProyectosArmandoRdz/projects/proyecto3.md">
   <h3>Selección de características</h3>
   <p>Aplicación de métodos de filtrado, envolvente y embebido para mejorar el desempeño de modelos predictivos.</p>
 </a>
