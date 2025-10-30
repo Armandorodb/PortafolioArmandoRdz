@@ -1,40 +1,121 @@
-.back-link {
-  display: inline-block;
-  margin: 8px 0 12px;
-  text-decoration: none;
-  opacity: .8;
+/* === ENCABEZADO PRINCIPAL (Cayman modificado) === */
+.page-header {
+  background: #0a2540; /* azul profesional sólido */
+  padding: 3rem 1rem;
+  text-align: center;
+  border-bottom: none;
 }
-.back-link:hover { opacity: 1; }
 
-.project-hero {
-  padding: 22px 20px;
-  border: 1px solid rgba(0,0,0,.08);
+.page-header h1.project-name {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.page-header h2.project-tagline {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 0.8rem;
+}
+
+.page-header .btn {
+  display: none !important; /* oculta "View on GitHub" */
+}
+
+/* === ESTILO GENERAL === */
+body {
+  background-color: #f8f9fb;
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+.main-content {
+  background-color: #ffffff;
+  padding: 2rem 1.5rem;
   border-radius: 16px;
-  background: linear-gradient(180deg, rgba(255,255,255,.85), rgba(255,255,255,.65));
-  margin-bottom: 18px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  margin-top: 1.5rem;
 }
-.project-hero h1 { margin: 0 0 6px; }
-.project-hero .subtitle { margin: 0 0 14px; opacity: .85; }
 
-.cta-row { display: flex; flex-wrap: wrap; gap: 10px; }
+/* === TARJETAS DE PROYECTO (INDEX) === */
+.cards {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  margin: 20px 0 40px;
+}
 
+.card {
+  display: block;
+  padding: 16px 20px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  color: #004aad;
+}
+
+.card p {
+  color: #333;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* === BOTONES (EN PROYECTOS INDIVIDUALES) === */
 .btn {
   display: inline-block;
   padding: 10px 14px;
   border-radius: 12px;
-  border: 1px solid rgba(0,0,0,.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
   text-decoration: none;
   background: #fff;
-  transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
 }
+
 .btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
+
 .btn-primary {
-  background: #0d6efd;
+  background: #004aad;
   color: #fff !important;
-  border-color: #0d6efd;
+  border-color: #004aad;
+}
+
+/* === SECCIONES DE PROYECTOS === */
+.project-hero {
+  padding: 22px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  background: #f0f4fa;
+  margin-bottom: 18px;
+}
+.project-hero h1 {
+  margin: 0 0 6px;
+  color: #0a2540;
+}
+.project-hero .subtitle {
+  margin: 0 0 14px;
+  opacity: 0.85;
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .file-links {
@@ -42,10 +123,26 @@
   padding-left: 0;
   margin-top: 6px;
 }
-.file-links li { margin: 8px 0; }
-.file-links a { text-decoration: none; }
-
-.page-header {
-  display: none !important;
+.file-links li {
+  margin: 8px 0;
 }
+.file-links a {
+  text-decoration: none;
+  color: #004aad;
+}
+.file-links a:hover {
+  text-decoration: underline;
+}
+
+/* === LINKS DE REGRESO === */
+.back-link {
+  display: inline-block;
+  margin: 8px 0 12px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.back-link:hover {
+  opacity: 1;
+}
+
 
