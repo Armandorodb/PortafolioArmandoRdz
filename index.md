@@ -6,7 +6,7 @@ title: Portafolio de Armando Rodríguez
 <!-- === HERO PROFESIONAL === -->
 <section class="hero">
   <div class="hero-content">
-    <img src="{{ site.baseurl }}/assets/armando.jpg" alt="Foto de Armando Rodríguez" class="hero-avatar">
+    <img src="{{ site.baseurl }}/assets/IMG_5125.png" alt="Foto de Armando Rodríguez" class="hero-avatar">
     <div class="hero-text">
       <h1>Armando Rodríguez</h1>
       <h2>Ingeniería en Robótica y Sistemas Inteligentes</h2>
