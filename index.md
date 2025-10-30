@@ -19,12 +19,12 @@ Si alguno te interesa o deseas colaborar, no dudes en contactarme.
 
 <div class="cards">
 
-<a class="card" href="/Portafolio/ArmandoRdz/proyecto1/">
+<a class="card" href="/PortafolioArmandoRdz/proyecto1/">
   <h3>Regresión Lineal</h3>
   <p>Relación entre el PIB y el puntaje del World Happiness Report. Incluye análisis estadístico, R², p-value y visualizaciones.</p>
 </a>
 
-<a class="card" href="/ProyectosArmandoRdz/projects/proyecto2.html">
+<a class="card" href="/PortafolioArmandoRdz/projects/proyecto2/">
   <h3>Regresión Lineal Múltiple</h3>
   <p>Modelo predictivo con múltiples variables explicativas y validación cruzada para evaluar su rendimiento.</p>
 </a>
