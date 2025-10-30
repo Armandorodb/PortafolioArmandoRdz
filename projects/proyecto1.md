@@ -10,13 +10,6 @@ permalink: /projects/proyecto1/
   <h1>Regresión Lineal (GDP vs. World Happiness Report)</h1>
   <p class="subtitle">Ejercicio de Linear Regression con GDP y puntajes de felicidad (WHR)</p>
 
-  <div class="cta-row">
-    <a class="btn btn-primary" href="{{ site.baseurl }}/Ejercicio_LinearRegression.html">▶️ Ver la regresión lineal</a>
-    <a class="btn" href="{{ site.baseurl }}/Ejercicio_LinearRegression.ipynb">📓 Notebook (.ipynb)</a>
-    <a class="btn" href="{{ site.baseurl }}/data1_2.csv">📄 CSV (base de datos)</a>
-  </div>
-</div>
-
 ---
 
 ## Descripción
