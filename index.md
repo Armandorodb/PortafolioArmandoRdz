@@ -16,6 +16,11 @@ Si alguno te interesa o deseas colaborar, no dudes en contactarme.
 ---
 
 ## 📂 Proyectos
+<div class="cta-row">
+  <a class="btn btn-primary" href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.html">▶️ Ver la regresión lineal</a>
+  <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.ipynb">📓 Notebook (.ipynb)</a>
+  <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/data1_2.csv">📄 CSV (base de datos)</a>
+</div>
 
 <div class="cards">
 
