@@ -1,4 +1,4 @@
-**Ejercicio de regresión lineal multiple:**   
+# Ejercicio de regresión lineal multiple
 
 Realizare un ejercicio típico de regresión lineal múltiple utilizando datos de la NASA, los cuales buscaban determinar perfiles aerodinámicos ideales ante diferentes condiciones, dichas condiciones serán las variables x o independientes de nuestro sistema.   
 
@@ -9,7 +9,6 @@ Los datos fueron originalmente publicados por la NASA:
 
 Y fueron obtenidos de UCI MACHINE LEARNING REPOSITORY:  
 [https://archive.ics.uci.edu/dataset/291/airfoil+self+noise](https://archive.ics.uci.edu/dataset/291/airfoil+self+noise)    
-  
 
 La base de datos cuenta con la siguiente información:   
 * “frecuencia”. Frecuencia, en Hz.  
@@ -17,10 +16,6 @@ La base de datos cuenta con la siguiente información:
 * “velocidad”. Velocidad de flujo libre, en metros por segundo.  
 * “espesor”. Espesor del desplazamiento en el lado de succión, en metros.  
 * “presión”. Nivel escalado de presión sonora, en dB   
-
-Dichos datos fueron modificados para ser más fáciles de trabajar, si quieres replicar el código o verificar su funcionamiento puedes encontrar el archivo en este repositorio.  
-
-
 
 -[Ver la regresión lineal multiple](RegresionMultiple.html)    
 -[Descargar archivo CSV (La base de datos)](data1_3.csv)    
