@@ -1,13 +1,39 @@
-# Rendimiento del combustible en autos comerciales
+---
+layout: default
+title: Árboles de decisión y función discriminante (Cilindros)
+permalink: /projects/proyecto9/
+---
 
-Realizaremos un análisis para predecir si la cantidad de cilindros de un auto es mayor a 4 (1) o menor o igual a 4 (0) utilizando árboles de decisión y funciones discriminantes.  
+<a class="back-link" href="{{ site.baseurl }}/">← Volver al portafolio</a>
 
-Datos obtenidos de:  
-[UCI Machine Learning Repository - Auto MPG](https://archive.ics.uci.edu/dataset/9/auto+mpg)
+<div class="project-hero">
+  <h1>Árboles de decisión y función discriminante (Cilindros)</h1>
+  <p class="subtitle">Clasificación (≤4 vs &gt;4 cilindros) con árboles y discriminante.</p>
 
-Variables:  
-MPG, Cylinders, Displacement, Horsepower, Weight, Acceleration, Model year, Origin, Car Name.  
+  <div class="cta-row">
+    <a class="btn btn-primary" href="{{ site.baseurl }}/notebooks_y_datos/ArbolesDeDecision.html">Ver el proyecto</a>
+    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/ArbolesDeDecision.ipynb">Notebook (.ipynb)</a>
+    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/auto2-mpg.data-original">Base de datos</a>
+  </div>
+</div>
 
--[Ver el proyecto](ArbolesDeDecision.html)    
--[Descargar la base de datos](auto2-mpg.data-original)  
--[Descargar archivo Jupyter Notebook (.ipynb)](ArbolesDeDecision.ipynb)
+---
+
+## Descripción
+
+Se predice si un auto tiene más de 4 cilindros (1) o ≤4 (0) usando árboles de decisión y análisis discriminante, con las variables del dataset Auto MPG.
+
+---
+
+## Fuentes de datos
+
+UCI Machine Learning Repository — Auto MPG:  
+[https://archive.ics.uci.edu/dataset/9/auto+mpg](https://archive.ics.uci.edu/dataset/9/auto+mpg)
+
+---
+
+## Archivos y ejecución
+
+Usa los descargables del bloque superior para ejecutar y verificar el análisis.
+
+<a class="back-link bottom" href="{{ site.baseurl }}/">← Volver al portafolio</a>
