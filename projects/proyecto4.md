@@ -1,22 +1,20 @@
 # Solución de problemas en una base de datos
 
-En este ejercicio adaptaremos una base de datos para poder trabajar con ellos. Trabajaremos con una base de datos extraida del UCI "Machine Learning Repository" http://www3.dsi.uminho.pt/pcortez/student.pdf
+En este ejercicio adaptaremos una base de datos para poder trabajar con ella. Trabajaremos con una base de datos extraída del UCI Machine Learning Repository.  
 
-La base de datos cuenta con la siguiente información:
-* “Escuela”. Indica si el estudiante en cuestión asistía a la escuela Gabriel Pereira (GP) o
-* la escuela Mousinho da Silveira (MS).
-* “Sexo”. F para mujeres y H para hombres.
-* “Edad”. Edad del estudiante, en años.
-* “HorasDeEstudio”. Cantidad de horas de estudio: 1 indica menos de dos horas, 2
-indica de dos a cinco horas, 3 indica de cinco a diez horas, 4 indica más de diez horas.
-* “Reprobadas”. Indica la cantidad de materias reprobadas previamente.
-* “Internet”. Si el estudiante tenía acceso (yes) o no (no) a internet en su casa.
-* “Faltas”. Cantidad de veces que faltó a clases.
-* “G1”. Calificación del primer periodo, escala del 0 al 20.
-* “G2”. Calificación del segundo periodo, escala del 0 al 20.
-* “G3”. Calificación final, escala del 0 al 20.  
-  
-Buscaremos outlayers, crearemos variables dummies es decir transformaremos las variables categoricas para poder trabajar con ellas en una regresión lineal multiple, buscaremos correlaciones y genéraremos interacciones.   
+La base de datos cuenta con la siguiente información:  
+* “Escuela”. Indica si el estudiante asistía a la escuela Gabriel Pereira (GP) o Mousinho da Silveira (MS).  
+* “Sexo”. F para mujeres y H para hombres.  
+* “Edad”. Edad del estudiante en años.  
+* “HorasDeEstudio”. Cantidad de horas de estudio (1: <2h, 4: >10h).  
+* “Reprobadas”. Cantidad de materias reprobadas previamente.  
+* “Internet”. Si el estudiante tenía acceso (yes/no) a internet en su casa.  
+* “Faltas”. Cantidad de faltas a clases.  
+* “G1”. Calificación del primer periodo.  
+* “G2”. Calificación del segundo periodo.  
+* “G3”. Calificación final.  
+
+Buscaremos outliers, crearemos variables dummies, realizaremos una regresión lineal múltiple, buscaremos correlaciones y generaremos interacciones.  
 
 -[Ver la regresión lineal multiple](SolucionProblemas.html)    
 -[Descargar archivo CSV (La base de datos)](data_1_5.csv)    
