@@ -11,9 +11,9 @@ permalink: /projects/regresion-lineal/
   <p class="subtitle">Análisis estadístico entre el Producto Interno Bruto (GDP) y la felicidad según el World Happiness Report (WHR).</p>
 
   <div class="cta-row">
-    <a class="btn btn-primary" href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.html">▶️ Ver la regresión lineal</a>
-    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.ipynb">📓 Notebook (.ipynb)</a>
-    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/data1_2.csv">📄 Archivo CSV (base de datos)</a>
+    <a class="btn btn-primary" href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.html">Ver la regresión lineal</a>
+    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.ipynb">Notebook (.ipynb)</a>
+    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/data1_2.csv">Base de datos (CSV)</a>
   </div>
 </div>
 
@@ -46,11 +46,11 @@ Y se utilizaron datos de "The world bank" para obtener el GDP.
 
 Dichos datos fueron modificados para poder trabajar con ellos de mejor manera, para poder ejecutar el código y verificar su funcionamiento usa el descargable.  
 
-<ul class="file-links">
-  <li>▶️ <a href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.html"><strong>Ver la regresión lineal</strong></a></li>
-  <li>📓 <a href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.ipynb">Descargar archivo Jupyter Notebook (.ipynb)</a></li>
-  <li>📄 <a href="{{ site.baseurl }}/notebooks_y_datos/data1_2.csv">Descargar archivo CSV (La base de datos)</a></li>
-</ul>
+<div class="cta-row">
+  <a class="btn btn-primary" href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.html">Ver la regresión lineal</a>
+  <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.ipynb">Notebook (.ipynb)</a>
+  <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/data1_2.csv">Base de datos (CSV)</a>
+</div>
 
 ---
 
