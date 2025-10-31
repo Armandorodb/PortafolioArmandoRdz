@@ -1,12 +1,6 @@
-title: "Portafolio de Proyectos de Armando Rdz."
+title: "Portafolio de Armando Rodríguez"
 description: "Repositorio y portafolio de proyectos de Inteligencia Artificial, Control, Visión Computacional y Robótica."
 theme: jekyll-theme-cayman
-
-# MUY IMPORTANTE para que el tema y tus CSS carguen en /PortafolioArmandoRdz/
 url: "https://armandorodb.github.io"
 baseurl: "/PortafolioArmandoRdz"
-
-# (opcional)
 show_downloads: false
-github:
-  is_project_page: false
