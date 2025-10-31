@@ -28,83 +28,46 @@ title: Portafolio de Armando Rodríguez
 
 <div class="cards">
 
-<section id="proyectos" class="projects">
-  <h2>Proyectos</h2>
+<a class="card" href="{{ site.baseurl }}/projects/regresion-lineal/">
+  <h3>Regresión Lineal</h3>
+  <p>Relación entre el PIB y el puntaje del World Happiness Report. Incluye análisis estadístico, R², p-value y visualizaciones.</p>
+</a>
 
-  <!-- Proyecto 2 -->
-  <article class="card">
-    <h3>Ejercicio de regresión lineal múltiple (NASA)</h3>
-    <p>Regresión lineal múltiple con datos de Airfoil Self-Noise. Entrenamiento/prueba, betas y correlaciones.</p>
-    <div class="actions">
-      <a class="btn" href="RegresionMultiple.html" target="_blank" rel="noopener">Ver proyecto</a>
-      <a class="btn-outline" href="RegresionMultiple.ipynb" target="_blank" rel="noopener">Notebook (.ipynb)</a>
-      <a class="link" href="data1_3.csv" download>Descargar datos (CSV)</a>
-    </div>
-  </article>
+<a class="card" href="{{ site.baseurl }}/projects/proyecto2/">
+  <h3>Regresión Lineal Múltiple</h3>
+  <p>Modelo predictivo con múltiples variables explicativas y validación cruzada para evaluar su rendimiento.</p>
+</a>
 
-  <!-- Proyecto 3 -->
-  <article class="card">
-    <h3>Selección de características (Wine Quality)</h3>
-    <p>Selección hacia adelante y eliminación hacia atrás para predecir calidad de vino con regresión múltiple.</p>
-    <div class="actions">
-      <a class="btn" href="SeleccionVariables.html" target="_blank" rel="noopener">Ver proyecto</a>
-      <a class="btn-outline" href="SeleccionVariables.ipynb" target="_blank" rel="noopener">Notebook (.ipynb)</a>
-      <a class="link" href="Datos1_4.csv" download>Descargar datos (CSV)</a>
-    </div>
-  </article>
+<a class="card" href="{{ site.baseurl }}/projects/proyecto3/">
+  <h3>Selección de características</h3>
+  <p>Aplicación de métodos de filtrado, envolvente y embebido para mejorar el desempeño de modelos predictivos.</p>
+</a>
 
-  <!-- Proyecto 4 -->
-  <article class="card">
-    <h3>Solución de problemas en una base de datos (Estudiantes)</h3>
-    <p>Limpieza, dummies, correlaciones, regresión múltiple e interacciones en dataset académico.</p>
-    <div class="actions">
-      <a class="btn" href="SolucionProblemas.html" target="_blank" rel="noopener">Ver proyecto</a>
-      <a class="btn-outline" href="SolucionProblemas.ipynb" target="_blank" rel="noopener">Notebook (.ipynb)</a>
-      <a class="link" href="data_1_5.csv" download>Descargar datos (CSV)</a>
-    </div>
-  </article>
+<a class="card" href="{{ site.baseurl }}/projects/proyecto4/">
+  <h3>Solución de problemas en una base de datos</h3>
+  <p>Aplicación de técnicas de aprendizaje supervisado para resolver problemas con datos estructurados.</p>
+</a>
 
-  <!-- Proyecto 6 -->
-  <article class="card">
-    <h3>Regresión no lineal (Polinomial, Segmentado y KNN)</h3>
-    <p>Modelos para relación tiempo de entrega–calificación con 432 registros académicos.</p>
-    <div class="actions">
-      <a class="btn" href="RegresionNoLineal.html" target="_blank" rel="noopener">Ver proyecto</a>
-      <a class="btn-outline" href="RegresionNoLineal.ipynb" target="_blank" rel="noopener">Notebook (.ipynb)</a>
-      <a class="link" href="data_1_6.csv" download>Descargar datos (CSV)</a>
-    </div>
-  </article>
+<a class="card" href="{{ site.baseurl }}/projects/proyecto6/">
+  <h3>Regresión No Lineal (Polinomial, Segmentado y KNN)</h3>
+  <p>Comparación de distintos modelos no lineales aplicados a datos reales para analizar rendimiento y ajuste.</p>
+</a>
 
-  <!-- Proyecto 7 -->
-  <article class="card">
-    <h3>Rendimiento de combustible (Auto MPG) – Análisis</h3>
-    <p>Inferencias y modelos (lineal, múltiple y cuadrático) sobre millas por galón.</p>
-    <div class="actions">
-      <a class="btn" href="proyecto1_1.html" target="_blank" rel="noopener">Ver proyecto</a>
-      <a class="btn-outline" href="proyecto1_1.ipynb" target="_blank" rel="noopener">Notebook (.ipynb)</a>
-      <a class="link" href="auto-mpg.data-original" download>Descargar datos</a>
-    </div>
-  </article>
+<a class="card" href="{{ site.baseurl }}/projects/proyecto7/">
+  <h3>Rendimiento del combustible en autos comerciales</h3>
+  <p>Modelo de predicción del consumo de combustible utilizando variables de operación y diseño del vehículo.</p>
+</a>
 
-  <!-- Proyecto 8 -->
-  <article class="card">
-    <h3>Regresión logística (Cilindros &gt; 4)</h3>
-    <p>Clasificación binaria (≤4 vs &gt;4 cilindros) con regresión logística múltiple.</p>
-    <div class="actions">
-      <a class="btn" href="RegresionLogistica.html" target="_blank" rel="noopener">Ver proyecto</a>
-      <a class="btn-outline" href="RegresionLogistica.ipynb" target="_blank" rel="noopener">Notebook (.ipynb)</a>
-      <a class="link" href="auto2-mpg.data-original" download>Descargar datos</a>
-    </div>
-  </article>
+<a class="card" href="{{ site.baseurl }}/projects/proyecto8/">
+  <h3>Regresión Logística: Cilindros en autos comerciales</h3>
+  <p>Clasificación de motores según número de cilindros y tipo de combustible mediante regresión logística.</p>
+</a>
 
-  <!-- Proyecto 9 -->
-  <article class="card">
-    <h3>Árboles de decisión y discriminante (Cilindros)</h3>
-    <p>Clasificación (≤4 vs &gt;4 cilindros) con árboles de decisión y función discriminante.</p>
-    <div class="actions">
-      <a class="btn" href="ArbolesDeDecision.html" target="_blank" rel="noopener">Ver proyecto</a>
-      <a class="btn-outline" href="ArbolesDeDecision.ipynb" target="_blank" rel="noopener">Notebook (.ipynb)</a>
-      <a class="link" href="auto2-mpg.data-original" download>Descargar datos</a>
-    </div>
-  </article>
-</section>
+<a class="card" href="{{ site.baseurl }}/projects/proyecto9/">
+  <h3>Árboles de decisión y función discriminante (YAP)</h3>
+  <p>Implementación de árboles de decisión y análisis discriminante para clasificación de conjuntos de datos complejos.</p>
+</a>
+
+</div>
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
