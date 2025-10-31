@@ -1,15 +1,39 @@
-# Rendimiento del combustible en autos comerciales
+---
+layout: default
+title: Rendimiento de combustible (Auto MPG) — Análisis
+permalink: /projects/proyecto7/
+---
 
-Realizaremos un análisis de diferentes vehículos para poder realizar inferencias sobre su rendimiento de combustible, específicamente las millas recorridas por galón. Además, construiremos un modelo predictivo.  
+<a class="back-link" href="{{ site.baseurl }}/">← Volver al portafolio</a>
 
-Se incluyen temas como regresión lineal simple, múltiple y cuadrática, selección de variables y solución de problemas en una base de datos.  
+<div class="project-hero">
+  <h1>Rendimiento de combustible (Auto MPG) — Análisis</h1>
+  <p class="subtitle">Inferencias y modelos (lineal, múltiple y cuadrático) sobre MPG.</p>
 
-Datos obtenidos de:  
-[UCI Machine Learning Repository - Auto MPG](https://archive.ics.uci.edu/dataset/9/auto+mpg)
+  <div class="cta-row">
+    <a class="btn btn-primary" href="{{ site.baseurl }}/notebooks_y_datos/proyecto1_1.html">Ver el proyecto</a>
+    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/proyecto1_1.ipynb">Notebook (.ipynb)</a>
+    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/auto-mpg.data-original">Base de datos</a>
+  </div>
+</div>
 
-Variables:  
-MPG, Cylinders, Displacement, Horsepower, Weight, Acceleration, Model year, Origin, Car Name.  
+---
 
--[Ver el proyecto](proyecto1_1.html)  
--[Descargar la base de datos](auto-mpg.data-original)  
--[Descargar archivo Jupyter Notebook (.ipynb)](proyecto1_1.ipynb)
+## Descripción
+
+Análisis de vehículos para inferir y predecir el rendimiento de combustible (millas por galón). Se abordan regresiones lineal simple, múltiple y cuadrática; selección de variables y resolución de problemas en la base de datos.
+
+---
+
+## Fuentes de datos
+
+UCI Machine Learning Repository — Auto MPG:  
+[https://archive.ics.uci.edu/dataset/9/auto+mpg](https://archive.ics.uci.edu/dataset/9/auto+mpg)
+
+---
+
+## Archivos y ejecución
+
+Usa los descargables del bloque superior para ejecutar y verificar el estudio.
+
+<a class="back-link bottom" href="{{ site.baseurl }}/">← Volver al portafolio</a>
