@@ -8,25 +8,19 @@ Los datos originales se obtuvieron de UCI Machine Learning Repository:
 Y se reportaron originalmente en "Modeling wine preferences by data mining from physicochemical properties" en la revista "Decision Support Systems":  
 [https://www.sciencedirect.com/science/article/abs/pii/S0167923609001377?via%3Dihub](https://www.sciencedirect.com/science/article/abs/pii/S0167923609001377?via%3Dihub)
 
-Las ligas se encuentran si quieres verificar las bases de datos, si deseas probar la funcionalidad del código usa la base de datos que se proporciona como descargable ya que los datos fueron modificados para trabajar con ellos de manera más sencilla.
-
 La base de datos cuenta con la siguiente información:  
-  
-* “acidezFija”. La acidez fija del vino, medida en gramos de ácido tartárico por decímetro
-cúbico.  
-* “acidezVolatil”. La acidez volátil del vino, medida en gramos de ácido acético por
-decímetro cúbico.  
-* “acidoCitrico”. Gramos de tácito cítrico por decímetro cúbico.  
+* “acidezFija”. Acidez fija del vino, en gramos de ácido tartárico por decímetro cúbico.  
+* “acidezVolatil”. Acidez volátil del vino, en gramos de ácido acético por decímetro cúbico.  
+* “acidoCitrico”. Gramos de ácido cítrico por decímetro cúbico.  
 * “azucarResidual”. Gramos de azúcar por decímetro cúbico.  
 * “cloruros”. Gramos de cloruro de sodio por decímetro cúbico.  
 * “dioxidoAzufreLibre”. Miligramos de dióxido de azufre libre por decímetro cúbico.  
 * “dioxidoAzufreTotal”. Miligramos de dióxido de azufre total por decímetro cúbico.  
-* “densidad”. Medida en gramos por centímetro cúbico.  
+* “densidad”. Gramos por centímetro cúbico.  
 * “pH”. Valor del vino en la escala de pH.  
 * “sulfatos”. Gramos de sulfato de potasio por decímetro cúbico.  
-* “alcohol”. volumen percentil de alcohol en el vino.  
-* “calidad”. Mediana de la calidad otorgada por al menos tres catadores, en escala del 0
-(muy malo) al 10 (excelente)  
+* “alcohol”. Porcentaje de volumen de alcohol.  
+* “calidad”. Mediana de la calidad otorgada por catadores, en escala de 0 a 10.  
 
 -[Ver la selección de características](SeleccionVariables.html)    
 -[Descargar archivo CSV (La base de datos)](Datos1_4.csv)    
