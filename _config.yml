@@ -4,3 +4,5 @@ theme: jekyll-theme-cayman
 url: "https://armandorodb.github.io"
 baseurl: "/PortafolioArmandoRdz"
 show_downloads: false
+github:
+  is_project_page: false
