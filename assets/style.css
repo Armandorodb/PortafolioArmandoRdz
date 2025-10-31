@@ -1,6 +1,7 @@
-/* === ENCABEZADO PRINCIPAL (Cayman modificado) === */
+/* === ENCABEZADO PRINCIPAL (azul sólido profesional) === */
 .page-header {
-  background: #0a2540; /* azul profesional sólido */
+  background: #0a2540 !important; /* azul marino sólido */
+  background-image: none !important; /* elimina degradado del tema Cayman */
   padding: 3rem 1rem;
   text-align: center;
   border-bottom: none;
@@ -19,8 +20,9 @@
   margin-top: 0.8rem;
 }
 
+/* Elimina el botón "View on GitHub" */
 .page-header .btn {
-  display: none !important; /* oculta "View on GitHub" */
+  display: none !important;
 }
 
 /* === ESTILO GENERAL === */
@@ -29,6 +31,7 @@ body {
   font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
   color: #222;
   line-height: 1.6;
+  margin: 0;
 }
 
 .main-content {
@@ -39,7 +42,7 @@ body {
   margin-top: 1.5rem;
 }
 
-/* === HERO PROFESIONAL === */
+/* === HERO PROFESIONAL (Index principal) === */
 .hero {
   background: #0a2540;
   color: white;
@@ -106,6 +109,7 @@ body {
   border-radius: 25px;
   text-decoration: none;
   transition: all 0.2s ease;
+  margin: 4px 6px;
 }
 
 .btn {
@@ -128,7 +132,7 @@ body {
   background: #003b8b;
 }
 
-/* === TARJETAS DE PROYECTO (INDEX) === */
+/* === TARJETAS DE PROYECTO (Index) === */
 .cards {
   display: grid;
   gap: 16px;
@@ -187,33 +191,21 @@ body {
   gap: 10px;
 }
 
-.file-links {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 6px;
-}
-
-.file-links li {
-  margin: 8px 0;
-}
-
-.file-links a {
-  text-decoration: none;
-  color: #004aad;
-}
-
-.file-links a:hover {
-  text-decoration: underline;
-}
-
 /* === LINKS DE REGRESO === */
 .back-link {
   display: inline-block;
   margin: 8px 0 12px;
   text-decoration: none;
   opacity: 0.8;
+  color: #004aad;
 }
 
 .back-link:hover {
   opacity: 1;
+  text-decoration: underline;
+}
+
+/* === ELIMINAR ÍCONOS/LISTAS DE ARCHIVOS === */
+.file-links {
+  display: none !important;
 }
