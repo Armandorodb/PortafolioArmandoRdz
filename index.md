@@ -15,7 +15,7 @@ title: Portafolio de Armando Rodríguez
 
       <div class="hero-links">
         <a href="www.linkedin.com/in/roberto-armando-rodríguez-bernal-88827826a" target="_blank" class="btn-primary">GitHub</a>
-        <a href="https://www.linkedin.com/in/armandorodriguezb/" target="_blank" class="btn">LinkedIn</a>
+        <a href="www.linkedin.com/in/roberto-armando-rodríguez-bernal-88827826a" target="_blank" class="btn">LinkedIn</a>
         <a href="mailto:roberto.rodriguez@udem.edu" class="btn">✉️ Correo</a>
       </div>
     </div>
