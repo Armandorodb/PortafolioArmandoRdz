@@ -1,4 +1,8 @@
-# Ejercicio de regresión lineal multiple
+---
+layout: default
+title: Ejercicio de regresión lineal multiple
+permalink: /projects/proyecto2/
+---
 
 Realizare un ejercicio típico de regresión lineal múltiple utilizando datos de la NASA, los cuales buscaban determinar perfiles aerodinámicos ideales ante diferentes condiciones, dichas condiciones serán las variables x o independientes de nuestro sistema.   
 
