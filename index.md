@@ -6,7 +6,7 @@ title: Portafolio de Armando Rodríguez
 <!-- === HERO PROFESIONAL === -->
 <section class="hero">
   <div class="hero-content">
-    <img src="{{ site.baseurl }}/assets/IMG_5125.png" class="hero-avatar">
+    <img src="{{ site.baseurl }}/assets/armando.jpg" alt="Foto de Armando Rodríguez" class="hero-avatar">
     <div class="hero-text">
       <h1>Armando Rodríguez</h1>
       <h2>Ingeniería en Robótica y Sistemas Inteligentes</h2>
@@ -15,8 +15,8 @@ title: Portafolio de Armando Rodríguez
 
       <div class="hero-links">
         <a href="https://github.com/Armandorodb" target="_blank" class="btn-primary">GitHub</a>
-        <a href="https://www.linkedin.com/" target="_blank" class="btn">LinkedIn</a>
-        <a href="mailto:roberto.rodriguez@udem.edu" class="btn">Contáctame</a>
+        <a href="https://www.linkedin.com/in/armandorodriguezb/" target="_blank" class="btn">LinkedIn</a>
+        <a href="mailto:roberto.rodriguez@udem.edu" class="btn">✉️ Correo</a>
       </div>
     </div>
   </div>
