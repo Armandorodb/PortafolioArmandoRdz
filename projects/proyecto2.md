@@ -1,26 +1,42 @@
 ---
 layout: default
-title: Ejercicio de regresión lineal multiple
+title: Ejercicio de Regresión Lineal Múltiple (NASA)
 permalink: /projects/proyecto2/
 ---
 
-Realizare un ejercicio típico de regresión lineal múltiple utilizando datos de la NASA, los cuales buscaban determinar perfiles aerodinámicos ideales ante diferentes condiciones, dichas condiciones serán las variables x o independientes de nuestro sistema.   
+<a class="back-link" href="{{ site.baseurl }}/">← Volver al portafolio</a>
 
-Se dividen los datos en datos de entrenamiento y de prueba, se encuentran las betas y se encuentran correlaciones y se jerarquizan, además la información se presenta de manera conveniente para entender los resultados del ejercicio.   
+<div class="project-hero">
+  <h1>Ejercicio de Regresión Lineal Múltiple (NASA)</h1>
+  <p class="subtitle">Airfoil Self-Noise: betas, correlaciones y entrenamiento/prueba.</p>
 
-Los datos fueron originalmente publicados por la NASA:    
-[https://ntrs.nasa.gov/api/citations/19890016302/downloads/19890016302.pdf](https://ntrs.nasa.gov/api/citations/19890016302/downloads/19890016302.pdf)   
+  <div class="cta-row">
+    <a class="btn btn-primary" href="{{ site.baseurl }}/notebooks_y_datos/RegresionMultiple.html">Ver la regresión lineal múltiple</a>
+    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/RegresionMultiple.ipynb">Notebook (.ipynb)</a>
+    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/data1_3.csv">Base de datos (CSV)</a>
+  </div>
+</div>
 
-Y fueron obtenidos de UCI MACHINE LEARNING REPOSITORY:  
-[https://archive.ics.uci.edu/dataset/291/airfoil+self+noise](https://archive.ics.uci.edu/dataset/291/airfoil+self+noise)    
+---
 
-La base de datos cuenta con la siguiente información:   
-* “frecuencia”. Frecuencia, en Hz.  
-* “longitud”. Longitud de cuerda geométrica, en metros.  
-* “velocidad”. Velocidad de flujo libre, en metros por segundo.  
-* “espesor”. Espesor del desplazamiento en el lado de succión, en metros.  
-* “presión”. Nivel escalado de presión sonora, en dB   
+## Descripción
 
--[Ver la regresión lineal multiple](RegresionMultiple.html)    
--[Descargar archivo CSV (La base de datos)](data1_3.csv)    
--[Descargar archivo Jupyter Notebook (.ipynb)](RegresionMultiple.ipynb)
+Realizare un ejercicio típico de regresión lineal múltiple utilizando datos de la NASA, los cuales buscaban determinar perfiles aerodinámicos ideales ante diferentes condiciones; dichas condiciones serán las variables independientes del sistema. Se dividen los datos en entrenamiento y prueba, se estiman betas, se analizan correlaciones y se jerarquizan los predictores.
+
+---
+
+## Fuentes de datos
+
+NASA (documento original):  
+[https://ntrs.nasa.gov/api/citations/19890016302/downloads/19890016302.pdf](https://ntrs.nasa.gov/api/citations/19890016302/downloads/19890016302.pdf)  
+
+UCI Machine Learning Repository (Airfoil Self-Noise):  
+[https://archive.ics.uci.edu/dataset/291/airfoil+self+noise](https://archive.ics.uci.edu/dataset/291/airfoil+self+noise)
+
+---
+
+## Archivos y ejecución
+
+Usa los descargables del bloque superior para ejecutar y verificar el código en tu entorno.
+
+<a class="back-link bottom" href="{{ site.baseurl }}/">← Volver al portafolio</a>
