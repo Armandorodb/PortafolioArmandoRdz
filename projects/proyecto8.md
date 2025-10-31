@@ -1,13 +1,39 @@
-# Regresión logística, cilindros en autos comerciales
+---
+layout: default
+title: Regresión logística (Cilindros > 4)
+permalink: /projects/proyecto8/
+---
 
-Realizaremos un análisis para predecir si la cantidad de cilindros de un auto es mayor a 4 (1) o menor o igual a 4 (0), utilizando regresión logística múltiple.  
+<a class="back-link" href="{{ site.baseurl }}/">← Volver al portafolio</a>
 
-Datos obtenidos de:  
-[UCI Machine Learning Repository - Auto MPG](https://archive.ics.uci.edu/dataset/9/auto+mpg)
+<div class="project-hero">
+  <h1>Regresión logística (Cilindros &gt; 4)</h1>
+  <p class="subtitle">Clasificación binaria (≤4 vs &gt;4 cilindros) con regresión logística múltiple.</p>
 
-Variables:  
-MPG, Cylinders, Displacement, Horsepower, Weight, Acceleration, Model year, Origin, Car Name.  
+  <div class="cta-row">
+    <a class="btn btn-primary" href="{{ site.baseurl }}/notebooks_y_datos/RegresionLogistica.html">Ver la regresión logística</a>
+    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/RegresionLogistica.ipynb">Notebook (.ipynb)</a>
+    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/auto2-mpg.data-original">Base de datos</a>
+  </div>
+</div>
 
--[Ver la regresión logística](RegresionLogistica.html)    
--[Descargar la base de datos](auto2-mpg.data-original)  
--[Descargar archivo Jupyter Notebook (.ipynb)](RegresionLogistica.ipynb)
+---
+
+## Descripción
+
+Se modela la probabilidad de que un auto tenga más de 4 cilindros (1) frente a ≤4 (0) utilizando una regresión logística múltiple y variables técnicas como MPG, Displacement, Horsepower, Weight, etc.
+
+---
+
+## Fuentes de datos
+
+UCI Machine Learning Repository — Auto MPG:  
+[https://archive.ics.uci.edu/dataset/9/auto+mpg](https://archive.ics.uci.edu/dataset/9/auto+mpg)
+
+---
+
+## Archivos y ejecución
+
+Usa los descargables del bloque superior para ejecutar y verificar el análisis.
+
+<a class="back-link bottom" href="{{ site.baseurl }}/">← Volver al portafolio</a>
