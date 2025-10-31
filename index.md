@@ -1,3 +1,33 @@
+---
+layout: default
+title: Portafolio de Armando Rodríguez
+---
+
+<!-- === HERO PROFESIONAL === -->
+<section class="hero">
+  <div class="hero-content">
+    <img src="{{ site.baseurl }}/assets/IMG_5125.png" alt="Foto de Armando Rodríguez" class="hero-avatar">
+    <div class="hero-text">
+      <h1>Armando Rodríguez</h1>
+      <h2>Ingeniería en Robótica y Sistemas Inteligentes</h2>
+      <p>Apasionado por la <strong>Inteligencia Artificial</strong>, la <strong>Visión Computacional</strong> y el <strong>Control de Sistemas</strong>.  
+      Aquí encontrarás mis proyectos más destacados, tanto académicos como personales.</p>
+
+      <div class="hero-links">
+        <a href="https://github.com/Armandorodb" target="_blank" class="btn-primary">GitHub</a>
+        <a href="https://www.linkedin.com/in/roberto-armando-rodr%C3%ADguez-bernal-88827826a/" target="_blank" class="btn">LinkedIn</a>
+        <a href="mailto:roberto.rodriguez@udem.edu" class="btn">✉️ Correo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+---
+
+## 📂 Proyectos
+
+<div class="cards">
+
 <section id="proyectos" class="projects">
   <h2>Proyectos</h2>
 
