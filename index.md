@@ -14,7 +14,7 @@ title: Portafolio de Armando Rodríguez
       Aquí encontrarás mis proyectos más destacados, tanto académicos como personales.</p>
 
       <div class="hero-links">
-        <a href="https://github.com/Armandorodb" target="_blank" class="btn-primary">GitHub</a>
+        <a href="www.linkedin.com/in/roberto-armando-rodríguez-bernal-88827826a" target="_blank" class="btn-primary">GitHub</a>
         <a href="https://www.linkedin.com/in/armandorodriguezb/" target="_blank" class="btn">LinkedIn</a>
         <a href="mailto:roberto.rodriguez@udem.edu" class="btn">✉️ Correo</a>
       </div>
