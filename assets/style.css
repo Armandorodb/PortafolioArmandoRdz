@@ -7,12 +7,16 @@
   border-bottom: none;
 }
 .page-header h1.project-name {
+  background: #0a2540 !important;   /* azul marino sólido */
+  background-image: none !important; /* elimina degradado del tema */
   font-size: 2.4rem;
   font-weight: 700;
   color: #ffffff;
   letter-spacing: 0.5px;
 }
 .page-header h2.project-tagline {
+  background: #0a2540 !important;   /* azul marino sólido */
+  background-image: none !important; /* elimina degradado del tema */
   font-size: 1.05rem;
   color: rgba(255, 255, 255, 0.85);
   margin-top: 0.8rem;
