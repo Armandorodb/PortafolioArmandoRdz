@@ -1,14 +1,21 @@
 ---
 layout: default
-title: Regresión Lineal (GDP vs. WHR)
-permalink: /projects/proyecto1/
+title: Ejercicio de Regresión Lineal (GDP vs. WHR)
+permalink: /projects/regresion-lineal/
 ---
 
 <a class="back-link" href="{{ site.baseurl }}/">← Volver al portafolio</a>
 
 <div class="project-hero">
-  <h1>Regresión Lineal (GDP vs. World Happiness Report)</h1>
-  <p class="subtitle">Ejercicio de Linear Regression con GDP y puntajes de felicidad (WHR)</p>
+  <h1>Ejercicio de Regresión Lineal (GDP vs. WHR)</h1>
+  <p class="subtitle">Análisis estadístico entre el Producto Interno Bruto (GDP) y la felicidad según el World Happiness Report (WHR).</p>
+
+  <div class="cta-row">
+    <a class="btn btn-primary" href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.html">▶️ Ver la regresión lineal</a>
+    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.ipynb">📓 Notebook (.ipynb)</a>
+    <a class="btn" href="{{ site.baseurl }}/notebooks_y_datos/data1_2.csv">📄 Archivo CSV (base de datos)</a>
+  </div>
+</div>
 
 ---
 
@@ -16,12 +23,11 @@ permalink: /projects/proyecto1/
 
 **Ejercicio de Linear Regression (Regresión Lineal):**   
 
-   
 En este proyecto se busca realizar un ejercicio de regresión lineal con la intención de explorar la relación entre el producto interno bruto
 (GDP), por sus siglas en inglés y la escala de puntajes del "World Happiness Report" (WHR) el cual mide la felicidad de las personas por país 
-en una escala del 1 al 10.
+en una escala del 1 al 10.  
 Para el análisis de regresión lineal se identificó si existía una relación lineal significativa entre las variables (El GDP y la felicidad)
-con ayuda de herramientas estadísticas como la prueba de hipótesis, la distribución de student, el p-value, también se calculó el RSE y el R^2.
+con ayuda de herramientas estadísticas como la prueba de hipótesis, la distribución de student, el p-value, también se calculó el RSE y el R².  
 También se realizó una inferencia con los resultados obtenidos. Además los datos se verificaron mediante el uso de librerías especializadas.
 
 ---
@@ -36,16 +42,16 @@ Y se utilizaron datos de "The world bank" para obtener el GDP.
 
 ---
 
-## Archivos y ejecutables
+## Archivos y ejecución
 
-Dichos datos fueron modificados para poder trabajar con ellos de mejor manera, para poder ejecutar el código y verificar su funcionamiento
-usa el descargable.  
+Dichos datos fueron modificados para poder trabajar con ellos de mejor manera, para poder ejecutar el código y verificar su funcionamiento usa el descargable.  
 
 <ul class="file-links">
-  <li>▶️ <a href="{{ site.baseurl }}/Ejercicio_LinearRegression.html"><strong>Ver la regresión lineal</strong></a></li>
-  <li>📄 <a href="{{ site.baseurl }}/data1_2.csv">Descargar archivo CSV (La base de datos)</a></li>
-  <li>📓 <a href="{{ site.baseurl }}/Ejercicio_LinearRegression.ipynb">Descargar archivo Jupyter Notebook (.ipynb)</a></li>
+  <li>▶️ <a href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.html"><strong>Ver la regresión lineal</strong></a></li>
+  <li>📓 <a href="{{ site.baseurl }}/notebooks_y_datos/Ejercicio_LinearRegression.ipynb">Descargar archivo Jupyter Notebook (.ipynb)</a></li>
+  <li>📄 <a href="{{ site.baseurl }}/notebooks_y_datos/data1_2.csv">Descargar archivo CSV (La base de datos)</a></li>
 </ul>
 
-<a class="back-link bottom" href="{{ site.baseurl }}/">← Volver al portafolio</a>
+---
 
+<a class="back-link bottom" href="{{ site.baseurl }}/">← Volver al portafolio</a>
